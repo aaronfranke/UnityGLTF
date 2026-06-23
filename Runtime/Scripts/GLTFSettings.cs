@@ -134,6 +134,7 @@ namespace UnityGLTF
 	    }
 	    
 	    public ExportFileFormat EditorExportFileFormat = ExportFileFormat.Glb;
+		public bool AllowExporting64BitGLB = false;
 #endif
 	    
 		[Header("Export Visibility")]
